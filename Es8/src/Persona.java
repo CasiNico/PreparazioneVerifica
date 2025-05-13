@@ -1,12 +1,11 @@
 public class Persona {
     private String nome, cognome;
-    private int eta, tel;
+    private int eta;
 
-    public Persona(String nome, String cognome, int eta, int tel) {
+    public Persona(String nome, String cognome, int eta) {
         this.nome = nome;
         this.cognome = cognome;
         this.eta = eta;
-        this.tel = tel;
     }
 
     public String getNome() {
@@ -26,11 +25,5 @@ public class Persona {
     }
     public void setEta(int eta) {
         this.eta = eta;
-    }
-    public int getTel() {
-        return tel;
-    }
-    public void setTel(int tel) {
-        this.tel = tel;
     }
 }

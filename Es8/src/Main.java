@@ -20,9 +20,7 @@ public class Main {
             String tempCognome = in.next();
             System.out.print("Età persona: ");
             int tempEta = in.nextInt();
-            System.out.print("Numero di Telefono persona: ");
-            int tempTel = in.nextInt();
-            persone.add(new Persona(tempNome, tempCognome, tempEta, tempTel));
+            persone.add(new Persona(tempNome, tempCognome, tempEta));
         }
 
         // persone da arraylist a json (toJson)
